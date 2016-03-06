@@ -44,9 +44,6 @@
 - listener 基于listener的接口，命名以On作为开头
 - interface 真正意义上的极客，命名以I作为开头
 - presenter 使用mvp模式的话
-<<<<<<< HEAD
-- event 如果有使用 eventBus 或者 Otto 的话，存放一些 Event类
-=======
 - event 如果有使用 eventBus 或者 Otto 的话，存放一些 Event类
 
 
