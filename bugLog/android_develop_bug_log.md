@@ -43,3 +43,7 @@
 
 -----
 > gradle 开发 **buildToolsVersion** 和 **targetSdkVersion**，保持一致，不要问我为什么，在低版本报了各种 类找不到的错误，修改了一下发现正常了。要弄懂各个versoin的实际行为
+
+-----
+>enum constant INSTANT_RUN_REPLACEMENT does not exist in class com.android.manifmerger.ManifestMerger2$Invoker$Feature
+>  gradle plugin 2.0.0-aplha 版本切回到低版本(1.5) 发生了异常，删掉 .gradle/taskArtifacts.bin 就好了
