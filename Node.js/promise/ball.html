@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prpmise animaiton</title>
+	<style type="text/css">
+		.ball{
+			width: 40px;
+			height: 40px;
+			border-radius: 20px;
+		}
+		.ball1{
+			background: red;
+		}
+		.ball2{
+			background: yellow;
+		}
+		.ball3{
+			background: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="ball ball1" style="margin-left: 0;"></div>
+	<div class="ball ball2" style="margin-left: 0;"></div>
+	<div class="ball ball3" style="margin-left: 0;"></div>
+	<script type="text/javascript">
+		var ball1 = document.querySelector('.ball1');
+		var ball2 = document.querySelector('.ball2');
+		var ball3 = document.querySelector('.ball3');
+
+		function animate(ball,distance,cb){
+			setTimeout(function(){
+				var maringLeft = parseInt(ball.style.maringLeft,10);
+
+				if (maringLeft == distance) {
+					cb && cb();
+				} else {
+					if (maringLeft < distance) {
+						maringLeft++;
+					} else{
+						maringLeft--;
+					}
+					ball.style.maringLeft = maringLeft+'px';
+				animate(ball,distance,cb);
+				}
+
+			},13);
+		}
+
+		animate(ball1,100);
+	</script>
+</body>
+</html>
