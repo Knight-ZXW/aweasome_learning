@@ -1,5 +1,6 @@
 # Android 踩坑集合
 
+标签（空格分隔）： android
 
 ------
 
@@ -42,8 +43,8 @@
 > recycleview 的  viewtype 重写时要从0开始，系统默认返回0
 
 -----
-> gradle 开发 **buildToolsVersion** 和 **targetSdkVersion**，保持一致，不要问我为什么，在低版本报了各种 类找不到的错误，修改了一下发现正常了。要弄懂各个versoin的实际行为
+> gradle 开发 **buildToolsVersion** 和 **targetSdkVersion**，保持一致，不要问我为什么，我也不知道，在低版本报了各种 类找不到的错误，修改了一下发现正常了，有时间研究下。
 
 -----
->enum constant INSTANT_RUN_REPLACEMENT does not exist in class com.android.manifmerger.ManifestMerger2$Invoker$Feature
->  gradle plugin 2.0.0-aplha 版本切回到低版本(1.5) 发生了异常，删掉 .gradle/taskArtifacts.bin 就好了
+>问题：recyclerView的notifyDataSetChange 刷新全部视图，然而它不能像 listView一样通过给view 设置tag 来避免相同url图片重新加载的情况，因为notify之后，原来位置的View实际上已经换了一个对象，tag怎么判断都是不相同的。
+解决：在adapter的构造函数中 setHasStableIds(true); 记得重载getItemId（）返回一个唯一的id,之后用position 也是可以的。这样做保证了每一个数据项对应一个唯一的Id.也就是在recyclerView的notifyDataSetChange同一个位置的视图不会变了（不是在说滚动的情况）
