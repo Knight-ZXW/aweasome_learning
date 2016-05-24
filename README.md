@@ -1,2 +1,2 @@
 # AndroidBestPractices
-代码残酷
+代码
