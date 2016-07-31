@@ -3,6 +3,10 @@
 
 """http://ginstrom.com/scribbles/2007/10/08/design-patterns-python-style/"""
 
+"""
+工厂方法模式
+
+"""
 
 class GreekGetter:
 
@@ -33,7 +37,7 @@ def get_localizer(language="English"):
 e, g = get_localizer(language="English"), get_localizer(language="Greek")
 # Localize some text
 for msgid in "dog parrot cat bear".split():
-    print(e.get(msgid), g.get(msgid))
+    print(e.get(msgid),g.get(msgid))
 
 ### OUTPUT ###
 # dog σκύλος
