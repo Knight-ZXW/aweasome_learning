@@ -3,7 +3,6 @@
 
 """
 Lazily-evaluated property pattern in Python.
-
 https://en.wikipedia.org/wiki/Lazy_evaluation
 http://stevenloria.com/lazy-evaluated-properties-in-python/
 """

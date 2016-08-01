@@ -5,6 +5,13 @@
 
 
 # ConcreteImplementor 1/2
+"""
+桥梁模式
+实际上就是一个 抽象接口的思想，
+将抽象 与 实现解耦 使得一个大的结构分离成很多小的结构，通过抽象组合起来
+"""
+
+
 class DrawingAPI1(object):
 
     def draw_circle(self, x, y, radius):

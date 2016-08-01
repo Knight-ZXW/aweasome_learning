@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*-
 
 
+"""
+简单的 3层架构
+视图、逻辑、模型分离
+"""
+
 class Data(object):
     """ Data Store Class """
 

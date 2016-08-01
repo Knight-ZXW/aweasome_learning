@@ -3,6 +3,10 @@
 
 """http://stackoverflow.com/questions/1514120/python-implementation-of-the-object-pool-design-pattern"""
 
+"""
+池模式
+"""
+
 
 class QueueObject():
 

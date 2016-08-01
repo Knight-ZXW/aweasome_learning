@@ -26,7 +26,7 @@ __Structural Patterns__:
 
 | Pattern | Description |
 |:-------:| ----------- |
-| [3-tier](3-tier.py) | data<->business logic<->presentation separation (strict relationships) |
+| [3-tier](3-tiera.py) | data<->business logic<->presentation separation (strict relationships) |
 | [adapter](adapter.py) | adapt one interface to another using a white-list |
 | [bridge](bridge.py) | a client-provider middleman to soften interface changes |
 | [composite](composite.py) | encapsulate and provide access to a number of different objects |
