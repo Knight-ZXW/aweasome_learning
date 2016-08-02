@@ -4,6 +4,10 @@
 
 from functools import wraps
 
+"""
+装饰器模式在 python编程中,非常有用。
+@wraps 这个装饰用于内部的方法修饰它可以改变内部方法的签名，使得输出的时候不会看上去那么奇怪
+"""
 
 def makebold(fn):
     return getwrapped(fn, "b")
