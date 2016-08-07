@@ -6,6 +6,13 @@
 import weakref
 
 
+"""
+flyweight
+本例实现的 flyweight 感觉更像一个 池模式,
+在类内部 利用字典，判断get 的对象是否存在,存在则复用，而不是创建一个新的。
+这种模式通常使用在 一个对象的创建需要消耗大量的资源，或者这类对象需要频繁被获取，而.
+"""
+
 class FlyweightMeta(type):
     def __new__(mcs, name, parents, dct):
         """
