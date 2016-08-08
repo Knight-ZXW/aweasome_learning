@@ -14,6 +14,10 @@ flyweight
 """
 
 class FlyweightMeta(type):
+    """
+    meta是python中比较高级的用法
+    """
+
     def __new__(mcs, name, parents, dct):
         """
 
@@ -40,6 +44,7 @@ class FlyweightMeta(type):
         return key
 
     def __call__(cls, *args, **kwargs):
+        print('call invoked')
         key = FlyweightMeta._serialize_params(cls, *args, **kwargs)
         pool = getattr(cls, 'pool', {})
 
@@ -82,7 +87,7 @@ class Card2(object):
 
 if __name__ == '__main__':
     import sys
-    if sys.version_info[0] > 2:
+    if sys.version_info[0] > 2: #这个例子只能在python2 环境下
         sys.stderr.write("!!! This example is compatible only with Python 2 ATM !!!\n")
         raise SystemExit(0)
 

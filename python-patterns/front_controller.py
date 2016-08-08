@@ -7,6 +7,11 @@ The controller provides a centralized entry point that controls and manages
 request handling.
 """
 
+"""
+前端控制器模式
+负责集中处理前端的请求
+例子中 包含了 视图的分发和处理
+"""
 
 class MobileView(object):
     def show_index_page(self):

@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+常见的MVC 模式
+
+"""
+
 class Model(object):
     def __iter__(self):
         raise NotImplementedError
