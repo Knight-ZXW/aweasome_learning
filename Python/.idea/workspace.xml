@@ -14,7 +14,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$dateutils.coverage" NAME="dateutils Coverage Results" MODIFIED="1470819206398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python$whatissignature.coverage" NAME="whatissignature Coverage Results" MODIFIED="1472138657697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/metaprogrammation" />
+    <SUITE FILE_PATH="coverage/Python$whatissignature.coverage" NAME="whatissignature Coverage Results" MODIFIED="1472139125186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/metaprogrammation" />
+    <SUITE FILE_PATH="coverage/Python$Q389.coverage" NAME="Q389 Coverage Results" MODIFIED="1472450062316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -25,31 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dateutils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dateutils.py">
+      <file leaf-file-name="socket.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python34/Lib/socket.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="342">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whatissignature.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/metaprogrammation/whatissignature.py">
+      <file leaf-file-name="Q389.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/Q389.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="217">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inspect.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python34/Lib/inspect.py">
+      <file leaf-file-name="_socket.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/814085081/_socket.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="2653" column="0" selection-start-line="2653" selection-start-column="0" selection-end-line="2653" selection-end-column="0" />
+            <state relative-caret-position="731">
+              <caret line="736" column="0" selection-start-line="736" selection-start-column="0" selection-end-line="736" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,6 +70,7 @@
       <list>
         <option value="$PROJECT_DIR$/dateutils.py" />
         <option value="$PROJECT_DIR$/metaprogrammation/whatissignature.py" />
+        <option value="$PROJECT_DIR$/leetcode/Q389.py" />
       </list>
     </option>
   </component>
@@ -110,6 +112,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,23 +141,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="metaprogrammation" />
+              <option name="myItemId" value="leetcode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="SearchEverywhereHistoryKey" value="wraps&#9;null&#9;null&#10;staticmethod&#9;null&#9;null" />
   </component>
-  <component name="RunManager" selected="Python.whatissignature">
+  <component name="RunManager" selected="Python.Q389">
     <configuration default="false" name="dateutils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,6 +190,24 @@
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/metaprogrammation/whatissignature.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Q389" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/Q389.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -399,19 +420,24 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.dateutils" />
       <item index="1" class="java.lang.String" itemvalue="Python.whatissignature" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Q389" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.whatissignature" />
-        <item index="1" class="java.lang.String" itemvalue="Python.dateutils" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.Q389" />
+        <item index="1" class="java.lang.String" itemvalue="Python.whatissignature" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dateutils" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\nimdanoob\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -424,17 +450,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -463,7 +489,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dateutils.py">
+    <entry file="file://D:/Python34/Lib/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1488">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/814085081/_socket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -473,9 +507,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dateutils.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dateutils.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -489,8 +529,232 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/metaprogrammation/whatissignature.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/814085081/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <caret line="4518" column="59" selection-start-line="4518" selection-start-column="59" selection-end-line="4518" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liaoxuefengDemo/venv/Lib/site-packages/pkg_resources/_vendor/six.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="796" column="26" selection-start-line="796" selection-start-column="26" selection-end-line="796" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python34/Lib/functools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="735" column="0" selection-start-line="735" selection-start-column="0" selection-end-line="735" selection-end-column="0" />
+          <folding>
+            <element signature="e#76#123#0" expanded="false" />
+            <element signature="e#455#647#0" expanded="false" />
+            <element signature="e#904#1069#0" expanded="false" />
+            <element signature="e#925#1066#0" expanded="false" />
+            <element signature="e#1004#1008#0" expanded="false" />
+            <element signature="e#1062#1066#0" expanded="false" />
+            <element signature="e#1069#1149#0" expanded="false" />
+            <element signature="e#1410#1503#0" expanded="false" />
+            <element signature="e#1695#2753#0" expanded="false" />
+            <element signature="e#1695#2219#1" expanded="false" />
+            <element signature="e#2254#2405#0" expanded="false" />
+            <element signature="e#2501#2571#0" expanded="false" />
+            <element signature="e#2858#3366#0" expanded="false" />
+            <element signature="e#2858#3259#1" expanded="false" />
+            <element signature="e#3369#3449#0" expanded="false" />
+            <element signature="e#3885#4104#0" expanded="false" />
+            <element signature="e#4140#4284#0" expanded="false" />
+            <element signature="e#4320#4509#0" expanded="false" />
+            <element signature="e#4545#4764#0" expanded="false" />
+            <element signature="e#4800#5012#0" expanded="false" />
+            <element signature="e#5048#5237#0" expanded="false" />
+            <element signature="e#5273#5492#0" expanded="false" />
+            <element signature="e#5528#5672#0" expanded="false" />
+            <element signature="e#5708#5897#0" expanded="false" />
+            <element signature="e#5933#6152#0" expanded="false" />
+            <element signature="e#6188#6400#0" expanded="false" />
+            <element signature="e#6436#6625#0" expanded="false" />
+            <element signature="e#6656#7775#0" expanded="false" />
+            <element signature="e#6731#7269#0" expanded="false" />
+            <element signature="e#6751#6864#0" expanded="false" />
+            <element signature="e#6884#6997#0" expanded="false" />
+            <element signature="e#7017#7130#0" expanded="false" />
+            <element signature="e#7150#7263#0" expanded="false" />
+            <element signature="e#7659#7760#0" expanded="false" />
+            <element signature="e#7695#7760#0" expanded="false" />
+            <element signature="e#7778#7858#0" expanded="false" />
+            <element signature="e#8004#8702#0" expanded="false" />
+            <element signature="e#8084#8689#0" expanded="false" />
+            <element signature="e#8149#8163#0" expanded="false" />
+            <element signature="e#8209#8246#0" expanded="false" />
+            <element signature="e#8292#8329#0" expanded="false" />
+            <element signature="e#8375#8413#0" expanded="false" />
+            <element signature="e#8459#8497#0" expanded="false" />
+            <element signature="e#8543#8581#0" expanded="false" />
+            <element signature="e#8627#8665#0" expanded="false" />
+            <element signature="e#8778#8858#0" expanded="false" />
+            <element signature="e#9063#9417#0" expanded="false" />
+            <element signature="e#9063#9152#1" expanded="false" />
+            <element signature="e#9199#9318#0" expanded="false" />
+            <element signature="e#9543#12531#0" expanded="false" />
+            <element signature="e#9543#9743#1" expanded="false" />
+            <element signature="e#9802#10627#0" expanded="false" />
+            <element signature="e#9870#9972#0" expanded="false" />
+            <element signature="e#9982#10049#0" expanded="false" />
+            <element signature="e#10180#10518#0" expanded="false" />
+            <element signature="e#10180#10243#0" expanded="false" />
+            <element signature="e#10545#10627#0" expanded="false" />
+            <element signature="e#10661#11177#0" expanded="false" />
+            <element signature="e#10729#10818#0" expanded="false" />
+            <element signature="e#11223#11633#0" expanded="false" />
+            <element signature="e#11267#11507#0" expanded="false" />
+            <element signature="e#11676#12412#0" expanded="false" />
+            <element signature="e#11780#12184#0" expanded="false" />
+            <element signature="e#11863#12184#0" expanded="false" />
+            <element signature="e#11863#11917#0" expanded="false" />
+            <element signature="e#12224#12390#0" expanded="false" />
+            <element signature="e#12224#12285#0" expanded="false" />
+            <element signature="e#12472#12528#0" expanded="false" />
+            <element signature="e#12531#12611#0" expanded="false" />
+            <element signature="e#12836#13219#0" expanded="false" />
+            <element signature="e#12836#13037#1" expanded="false" />
+            <element signature="e#13116#13164#0" expanded="false" />
+            <element signature="e#13198#13219#0" expanded="false" />
+            <element signature="e#13417#14215#0" expanded="false" />
+            <element signature="e#13417#13824#1" expanded="false" />
+            <element signature="e#13861#13978#0" expanded="false" />
+            <element signature="e#14001#14112#0" expanded="false" />
+            <element signature="e#14262#20565#0" expanded="false" />
+            <element signature="e#14262#14935#1" expanded="false" />
+            <element signature="e#14941#15005#0" expanded="false" />
+            <element signature="e#15852#20533#0" expanded="false" />
+            <element signature="e#16263#16515#0" expanded="false" />
+            <element signature="e#16307#16515#0" expanded="false" />
+            <element signature="e#16560#17044#0" expanded="false" />
+            <element signature="e#16604#17044#0" expanded="false" />
+            <element signature="e#16853#16896#0" expanded="false" />
+            <element signature="e#17073#19945#0" expanded="false" />
+            <element signature="e#17117#19945#0" expanded="false" />
+            <element signature="e#17319#17879#0" expanded="false" />
+            <element signature="e#17406#17879#0" expanded="false" />
+            <element signature="e#17981#19915#0" expanded="false" />
+            <element signature="e#18022#18332#0" expanded="false" />
+            <element signature="e#18022#18078#0" expanded="false" />
+            <element signature="e#18388#19557#0" expanded="false" />
+            <element signature="e#18595#18644#0" expanded="false" />
+            <element signature="e#19334#19388#0" expanded="false" />
+            <element signature="e#19608#19883#0" expanded="false" />
+            <element signature="e#19985#20106#0" expanded="false" />
+            <element signature="e#20147#20396#0" expanded="false" />
+            <element signature="e#20269#20396#0" expanded="false" />
+            <element signature="e#20568#20648#0" expanded="false" />
+            <element signature="e#20827#21708#0" expanded="false" />
+            <element signature="e#20827#20973#1" expanded="false" />
+            <element signature="e#21014#21708#0" expanded="false" />
+            <element signature="e#21215#21457#0" expanded="false" />
+            <element signature="e#21282#21417#0" expanded="false" />
+            <element signature="e#21326#21417#0" expanded="false" />
+            <element signature="e#21658#21708#0" expanded="false" />
+            <element signature="e#21743#23835#0" expanded="false" />
+            <element signature="e#21743#22648#1" expanded="false" />
+            <element signature="e#22712#22876#0" expanded="false" />
+            <element signature="e#22765#22876#0" expanded="false" />
+            <element signature="e#23101#23384#0" expanded="false" />
+            <element signature="e#23225#23384#0" expanded="false" />
+            <element signature="e#23225#23287#0" expanded="false" />
+            <element signature="e#23871#25434#0" expanded="false" />
+            <element signature="e#23871#24096#1" expanded="false" />
+            <element signature="e#24235#24346#0" expanded="false" />
+            <element signature="e#24399#24473#0" expanded="false" />
+            <element signature="e#24536#24658#0" expanded="false" />
+            <element signature="e#24568#24637#0" expanded="false" />
+            <element signature="e#24719#24784#0" expanded="false" />
+            <element signature="e#24905#25400#0" expanded="false" />
+            <element signature="e#24969#25086#0" expanded="false" />
+            <element signature="e#25121#25157#0" expanded="false" />
+            <element signature="e#25305#25400#0" expanded="false" />
+            <element signature="e#25340#25400#0" expanded="false" />
+            <element signature="e#25471#26467#0" expanded="false" />
+            <element signature="e#25471#25827#1" expanded="false" />
+            <element signature="e#25916#26436#0" expanded="false" />
+            <element signature="e#25950#26388#0" expanded="false" />
+            <element signature="e#25950#26013#0" expanded="false" />
+            <element signature="e#26282#26370#0" expanded="false" />
+            <element signature="e#26499#26869#1" expanded="false" />
+            <element signature="e#26984#27701#0" expanded="false" />
+            <element signature="e#26984#27194#1" expanded="false" />
+            <element signature="e#27272#27433#0" expanded="false" />
+            <element signature="e#27367#27433#0" expanded="false" />
+            <element signature="e#27523#27681#0" expanded="false" />
+            <element signature="e#27745#28178#0" expanded="false" />
+            <element signature="e#27745#27882#1" expanded="false" />
+            <element signature="e#28218#28265#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python34/Lib/urllib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python34/Lib/urllib/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python34/Lib/urllib/error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python34/Lib/http/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="129" column="34" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python34/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="414" column="23" selection-start-line="414" selection-start-column="23" selection-end-line="414" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/814085081/_socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="736" column="0" selection-start-line="736" selection-start-column="0" selection-end-line="736" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python34/Lib/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Q389.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding />
         </state>
       </provider>

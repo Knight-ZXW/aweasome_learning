@@ -1,4 +1,8 @@
 from inspect import Signature,Parameter
+"""
+使用 Signature 强制规范函数参数
+"""
+
 def make_sig(*names):
     parms = [Parameter(name,Parameter.POSITIONAL_OR_KEYWORD)
              for name in names]
@@ -23,4 +27,6 @@ s1 = Stock('ACME',400,490.1)
 print(s1.name)
 print(s1.shares)
 print(s1.price)
+point = Point(12,13,)
+print(inspect.signature(Point))
 # s2 = Stock('ACME',100)
