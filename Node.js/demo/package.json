@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "body-parser": "~1.15.1",
+    "cheerio": "^0.22.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "eventproxy": "^0.3.5",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "superagent": "^2.3.0",
+    "utility": "^1.8.0"
+  }
+}
